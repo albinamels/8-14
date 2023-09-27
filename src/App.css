@@ -1,38 +1,132 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-container {
+  width: 100%;
   min-height: 100vh;
+  position: relative;
+}
+
+.product-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 20px;
+  padding: 140px 120px 20px 120px;
+  position: relative;
+}
+
+.fav-page {
+  padding: 20px 120px 20px 120px;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.back-btn {
+  display: flex;
+  margin-left: 14%;
+  margin-bottom: 25px;
+}
+
+.back-btn h2 {
+  margin: 0 40px;
+}
+
+.nav-item a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  margin: 0;
+  padding: 20px 140px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  padding: 40px 120px;
+} */
+
+.navbar-brand {
+  padding-bottom: 20px;
+}
+
+.cart-wrapper,
+.fav-wrapper {
+  position: relative;
+}
+
+.cart-icon {
+  color: white;
+  height: 3em;
+  width: 3em;
+  margin: 0 20px 10px 0;
+}
+
+.cart-items {
+  position: absolute;
+  top: -15%;
+  right: 5%;
+  z-index: 1;
+  color: #212529;
+  font-weight: bold;
+  border: 2px solid yellow;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.cart-total {
+  color: white;
+  font-size: 20px;
+  padding: 10px 0 0 10px;
+}
+
+.like-icon {
+  position: absolute;
+  top: -35%;
+  right: 5%;
+  font-size: 40px;
+}
+
+.fav-items {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -20%;
+  right: 25%;
+  /* font-size: 40px; */
+}
+
+.img-container {
+  width: 13rem;
+  height: 16rem;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+.action-btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px 15px;
+}
+
+.table {
+  width: 80vw;
+  margin: 50px auto;
 }
