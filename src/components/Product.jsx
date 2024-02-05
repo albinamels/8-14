@@ -49,6 +49,12 @@ export const Product = ({
 
   return (
     <Card style={{ width: "16rem" }}>
+      <CardTitle className="rating" tag="h5">
+        {stars.map((star) => {
+          return <FcRating />;
+        })}{" "}
+        {rating.rate}
+      </CardTitle>
       <div className="img-container">
         <img src={image} />
       </div>
@@ -57,12 +63,12 @@ export const Product = ({
         <CardTitle className="card-title" tag="h5">
           {title}
         </CardTitle>
-        <CardTitle className="card-title" tag="h5">
+        {/* <CardTitle className="card-title" tag="h5">
           {stars.map((star) => {
             return <FcRating />;
           })}{" "}
           {rating.rate}
-        </CardTitle>
+        </CardTitle> */}
         {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
           {category}
         </CardSubtitle> */}

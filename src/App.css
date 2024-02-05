@@ -120,6 +120,11 @@
   min-height: 3rem;
 }
 
+.rating {
+  min-height: 3rem;
+  padding-top: 1rem;
+}
+
 .action-btns {
   display: flex;
   justify-content: space-between;
