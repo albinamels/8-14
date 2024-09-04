@@ -4,6 +4,12 @@
 - The project implements local storage to ensure seamless access to preferred settings across sessions 
 - The project is deployed via Netlify.
   
-![all categories](https://github.com/albinamels/React-Hooks-FakeShop/blob/master/src/screenshot1.png)
+![men's category](https://github.com/albinamels/React-Hooks-FakeShop/blob/master/src/category1.png)
+
+![jewelery category](https://github.com/albinamels/React-Hooks-FakeShop/blob/master/src/category2.png)
+
+![favorites](https://github.com/albinamels/React-Hooks-FakeShop/blob/master/src/favorites.png)
+
+![cart](https://github.com/albinamels/React-Hooks-FakeShop/blob/master/src/cart.png)
 
 
