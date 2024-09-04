@@ -5,3 +5,5 @@
 - The project is deployed via Netlify.
   
 ![all categories](https://github.com/albinamels/React-Hooks-FakeShop/blob/master/src/screenshot1.png)
+
+
